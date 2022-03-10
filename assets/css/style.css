@@ -237,12 +237,11 @@ section {
     display: inline-block;
 }
 .contact-info  {
-    width: 410px;
-    display: inline-block;
+    display: flex;
+    justify-content: Space-between;
+    flex-wrap: wrap;
     vertical-align: top;
-    text-align: left;
     margin: 30px 0 0 60px;
-    color: white;
 }
 .contact-info h3 {
     color: #fce138;
@@ -253,6 +252,7 @@ section {
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
+    color: white;
     
 }
 .contact-info a {
@@ -260,7 +260,6 @@ section {
 }
 .contact-info div {
     display: flex;
-    justify-content: Space-between;
     flex-wrap: wrap;
 }
 .contact-info > * {
